@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "canvas-sketch --output=renders --stream --open",
-    "start1": "canvas-sketch ./sketches/art-deco.js",
+    "art-deco": "canvas-sketch ./sketches/art-deco.js",
+    "art-deco-simple": "canvas-sketch ./sketches/art-deco-simple.js",
     "start2": "canvas-sketch ./sketches/sdf-boxes.js",
     "start3": "canvas-sketch ./sketches/sdf-boxes-simple.js",
     "start:print": "MODE=PRINT canvas-sketch --output=renders --stream --open"
