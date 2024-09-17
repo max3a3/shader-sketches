@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "canvas-sketch --output=renders --stream --open",
+    "start1": "canvas-sketch ./sketches/art-deco.js",
+    "start2": "canvas-sketch ./sketches/sdf-boxes.js",
+    "start3": "canvas-sketch ./sketches/sdf-boxes-simple.js",
     "start:print": "MODE=PRINT canvas-sketch --output=renders --stream --open"
   },
   "keywords": [],
